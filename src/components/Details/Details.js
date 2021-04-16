@@ -12,17 +12,19 @@
 //     }
 // }
 
-import React from "react";
+// import React from "react";
 
-const Additional = props => {
-    const {data} = props
-    return (
-        <div>
-            <p>
-                src={data.hdurl}
-            </p>
-        </div>
-    )
-}
+// const Additional = props => {
+//     const {data} = props
+//     return (
+//         <div>
+//             <p>
+//                 src={data.hdurl}
+//             </p>
+//         </div>
+//     )
+// }
+
+
 
 

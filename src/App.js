@@ -9,7 +9,23 @@ const apod_url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
 
 const StyledSpan = styled.span`
   font-size: 2em;
-  font-family: 'Roboto Mono'
+  font-family: 'Roboto Mono';
+`
+
+const StyledPhotoInfo = styled.span`
+  font-size: 1.5em;
+  font-family: 'Roboto Mono';
+`
+
+const StyledPIDiv = styled.div`
+  margin: 1% 15% 1% 15%;
+`
+const TitleH3 = styled.h3`
+  font-size: 2vh;
+  font-family: 'Roboto Mono';
+`
+const SpaceDiv = styled.div`
+  margin-bottom: 15%;
 `
 
 function App() {
@@ -29,11 +45,15 @@ function App() {
   
   return (
     <div className="App">
+      {/* <LogoDiv></LogoDiv> */}
       <Header />
       <StyledSpan>{data.title}</StyledSpan>
       <Photo data={data} />
-      <h3>More On This Photo</h3>
-      <span>{data.explanation}</span>
+      <TitleH3>More On This Photo</TitleH3>
+      <StyledPIDiv>
+        <StyledPhotoInfo>{data.explanation}</StyledPhotoInfo>
+      </StyledPIDiv>
+      <SpaceDiv/>
     </div>
   );
 }
