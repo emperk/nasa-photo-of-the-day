@@ -32,6 +32,8 @@ function App() {
       <Header />
       <StyledSpan>{data.title}</StyledSpan>
       <Photo data={data} />
+      <h3>More On This Photo</h3>
+      <span>{data.explanation}</span>
     </div>
   );
 }
