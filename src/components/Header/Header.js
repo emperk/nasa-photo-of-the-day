@@ -11,10 +11,10 @@ const StyledHeader = styled.div`
                0 6px 1px; */
 `
 const StyledH1 = styled.h1`
-  margin-top: 2%;
+  margin-top: 4%;
   font-family: 'Roboto Mono';
-  font-size: 3em;
-  letter-spacing: 1px;
+  font-size: 5em;
+  letter-spacing: 0px;
   word-spacing: -11px;
 `
 
