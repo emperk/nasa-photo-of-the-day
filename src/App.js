@@ -3,8 +3,10 @@ import "./App.css";
 import axios from 'axios'
 import Header from './components/Header/Header';
 import Photo from './components/POTD/POTD';
+// import styled from 'styled-components'
 
 const apod_url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
+
 
 
 function App() {
